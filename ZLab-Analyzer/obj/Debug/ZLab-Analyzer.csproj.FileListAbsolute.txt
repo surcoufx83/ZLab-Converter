@@ -1,0 +1,12 @@
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\bin\Debug\ZLab-Analyzer.exe.config
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\bin\Debug\ZLab-Analyzer.exe
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\bin\Debug\ZLab-Analyzer.pdb
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\bin\Debug\en-US\ZLab-Analyzer.resources.dll
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\obj\Debug\ZLab_Analyzer.Properties.Resources.resources
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\obj\Debug\ZLab-Analyzer.csproj.GenerateResource.Cache
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\obj\Debug\en-US\ZLab-Analyzer.resources.dll
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\obj\Debug\ZLab-Analyzer.exe
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\obj\Debug\ZLab-Analyzer.pdb
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\obj\Debug\ZLab_Analyzer.formStarter.resources
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\obj\Debug\ZLab_Analyzer.formStarter.en-US.resources
+D:\nextCloud\Projects\ZLab-Analyzer\ZLab-Analyzer\obj\Debug\ZLab_Analyzer.Forms.formConverter.resources

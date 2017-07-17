@@ -1,0 +1,637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="button_back" xml:space="preserve">
+    <value>&amp;Back</value>
+  </data>
+  <data name="button_cancel" xml:space="preserve">
+    <value>&amp;Cancel file</value>
+  </data>
+  <data name="button_create" xml:space="preserve">
+    <value>&amp;Create export</value>
+  </data>
+  <data name="button_exit" xml:space="preserve">
+    <value>&amp;Exit application</value>
+  </data>
+  <data name="button_next" xml:space="preserve">
+    <value>&amp;Next</value>
+  </data>
+  <data name="chart_animals_result_0" xml:space="preserve">
+    <value>inactive</value>
+  </data>
+  <data name="chart_animals_result_1" xml:space="preserve">
+    <value>slow</value>
+  </data>
+  <data name="chart_animals_result_2" xml:space="preserve">
+    <value>fast</value>
+  </data>
+  <data name="chart_animals_result_3" xml:space="preserve">
+    <value>not detected</value>
+  </data>
+  <data name="chart_animals_unfiltered_0" xml:space="preserve">
+    <value>inactive</value>
+  </data>
+  <data name="chart_animals_unfiltered_1" xml:space="preserve">
+    <value>slow</value>
+  </data>
+  <data name="chart_animals_unfiltered_2" xml:space="preserve">
+    <value>fast</value>
+  </data>
+  <data name="chart_animals_unfiltered_3" xml:space="preserve">
+    <value>not detected</value>
+  </data>
+  <data name="chart_axis_y_lines" xml:space="preserve">
+    <value>relative number of lines</value>
+  </data>
+  <data name="chart_axis_y_time" xml:space="preserve">
+    <value>relative time</value>
+  </data>
+  <data name="chart_filter_legend_0" xml:space="preserve">
+    <value>valid data</value>
+  </data>
+  <data name="chart_filter_legend_1" xml:space="preserve">
+    <value>threshold filtered</value>
+  </data>
+  <data name="chart_filter_legend_2" xml:space="preserve">
+    <value>inactivity filtered</value>
+  </data>
+  <data name="chart_filter_legend_3" xml:space="preserve">
+    <value>slow filtered</value>
+  </data>
+  <data name="chart_filter_legend_4" xml:space="preserve">
+    <value>fast filtered</value>
+  </data>
+  <data name="chart_filter_legend_5" xml:space="preserve">
+    <value>not detected filtered</value>
+  </data>
+  <data name="chart_filter_legend_6" xml:space="preserve">
+    <value>animal lines threshold</value>
+  </data>
+  <data name="chart_title_animal_afterfilter" xml:space="preserve">
+    <value>Resulting data after applying all filter.</value>
+  </data>
+  <data name="chart_title_animal_beforefilter" xml:space="preserve">
+    <value>Data before applying any filter.</value>
+  </data>
+  <data name="chart_title_filters" xml:space="preserve">
+    <value>Preview of applied filters.</value>
+  </data>
+  <data name="destination_charts" xml:space="preserve">
+    <value>Save the charts</value>
+  </data>
+  <data name="destination_checkbox_addcolumns" xml:space="preserve">
+    <value>Add additional columns for sums and relative amounts.</value>
+  </data>
+  <data name="destination_checkbox_filterheader" xml:space="preserve">
+    <value>Write filter settings to output file (xlsx-files only).</value>
+  </data>
+  <data name="destination_checkbox_importfolder" xml:space="preserve">
+    <value>a) Same folder as the imported file?</value>
+  </data>
+  <data name="destination_checkbox_otherfolder" xml:space="preserve">
+    <value>b) Another folder {0}</value>
+  </data>
+  <data name="destination_checkbox_overwrite" xml:space="preserve">
+    <value>Overwrite existing files?</value>
+  </data>
+  <data name="destination_filetype" xml:space="preserve">
+    <value>Filetype?</value>
+  </data>
+  <data name="destination_multiworksheet" xml:space="preserve">
+    <value>Multiple worksheets</value>
+  </data>
+  <data name="destination_options" xml:space="preserve">
+    <value>Data options:</value>
+  </data>
+  <data name="destination_wheretosave" xml:space="preserve">
+    <value>Where to save?</value>
+  </data>
+  <data name="destination_xls" xml:space="preserve">
+    <value>b) XLS (Microsoft Office 2010)</value>
+  </data>
+  <data name="destination_xlsx" xml:space="preserve">
+    <value>a) XLSX (Microsoft Office 2013/2016)</value>
+  </data>
+  <data name="favorite_save_header" xml:space="preserve">
+    <value>Favorite name?</value>
+  </data>
+  <data name="favorite_save_question" xml:space="preserve">
+    <value>Please enter a name for this favorite.</value>
+  </data>
+  <data name="filter_animallines" xml:space="preserve">
+    <value>5. Lines left (%):</value>
+  </data>
+  <data name="filter_checkbox_duplicates" xml:space="preserve">
+    <value>Recommended: Remove {0} ({1}%) line duplicates.</value>
+  </data>
+  <data name="filter_checkbox_invalidsum" xml:space="preserve">
+    <value>Remove {0} ({1}%) lines with an invalid duration sum.</value>
+  </data>
+  <data name="filter_empty" xml:space="preserve">
+    <value>4. Not detected (emptydur%):</value>
+  </data>
+  <data name="filter_fast" xml:space="preserve">
+    <value>2. Fast speed (lardur%):</value>
+  </data>
+  <data name="filter_fish" xml:space="preserve">
+    <value>&lt; fish &lt;</value>
+  </data>
+  <data name="filter_inactive" xml:space="preserve">
+    <value>3. Inactive (inadur%):</value>
+  </data>
+  <data name="filter_max" xml:space="preserve">
+    <value>max</value>
+  </data>
+  <data name="filter_min" xml:space="preserve">
+    <value>min</value>
+  </data>
+  <data name="filter_slow" xml:space="preserve">
+    <value>1. Slow speed (smldur%):</value>
+  </data>
+  <data name="header_converter" xml:space="preserve">
+    <value>ZLab-Fileconverter</value>
+  </data>
+  <data name="menu_favorites" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="menu_favorites_load_f1" xml:space="preserve">
+    <value>Load #&amp;1 - {0}</value>
+  </data>
+  <data name="menu_favorites_load_f2" xml:space="preserve">
+    <value>Load #&amp;2 - {0}</value>
+  </data>
+  <data name="menu_favorites_load_f3" xml:space="preserve">
+    <value>Load #&amp;3 - {0}</value>
+  </data>
+  <data name="menu_favorites_save_f1" xml:space="preserve">
+    <value>Save as #1</value>
+  </data>
+  <data name="menu_favorites_save_f2" xml:space="preserve">
+    <value>Save as #2</value>
+  </data>
+  <data name="menu_favorites_save_f3" xml:space="preserve">
+    <value>Save as #3</value>
+  </data>
+  <data name="menu_file" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="menu_file_exit" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="menu_help" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="menu_help_about" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="menu_help_support" xml:space="preserve">
+    <value>&amp;Help &amp;&amp; Support</value>
+  </data>
+  <data name="result_exporting" xml:space="preserve">
+    <value>Creating output files. Please wait.</value>
+  </data>
+  <data name="result_export_done" xml:space="preserve">
+    <value>Done. I've created {0} cleaned data files and {1} chart images.</value>
+  </data>
+  <data name="result_export_error_cancelled" xml:space="preserve">
+    <value>Cancelled by user.</value>
+  </data>
+  <data name="result_export_error_createfile" xml:space="preserve">
+    <value>Can't create output file: {0}:\r\n {1}</value>
+  </data>
+  <data name="result_export_overwrite_header" xml:space="preserve">
+    <value>Overwrite file?</value>
+  </data>
+  <data name="result_export_overwrite_question" xml:space="preserve">
+    <value>The file {0} already exists. Overwrite it?</value>
+  </data>
+  <data name="result_import_error_nofiles" xml:space="preserve">
+    <value>Sorry, I got no valid files. Please try again.</value>
+  </data>
+  <data name="result_import_error_other" xml:space="preserve">
+    <value>The file {0} could not be imported due to the following error: {1}</value>
+  </data>
+  <data name="result_table_col_animal" xml:space="preserve">
+    <value>animal</value>
+  </data>
+  <data name="result_table_col_linesleft" xml:space="preserve">
+    <value>lines left</value>
+  </data>
+  <data name="result_table_col_linesremoved" xml:space="preserve">
+    <value>lines removed</value>
+  </data>
+  <data name="result_table_col_linestotal" xml:space="preserve">
+    <value>lines total</value>
+  </data>
+  <data name="result_table_col_well" xml:space="preserve">
+    <value>well</value>
+  </data>
+  <data name="result_upscalechart" xml:space="preserve">
+    <value>upscale result chart to 100%</value>
+  </data>
+  <data name="usage_addition" xml:space="preserve">
+    <value>If you check the box at the bottom of this window, the conversion will be done automatically, after dropping the file, using your last filter settings.</value>
+  </data>
+  <data name="usage_autostart" xml:space="preserve">
+    <value>Automatic processing with last settings.</value>
+  </data>
+  <data name="usage_base" xml:space="preserve">
+    <value>Usage of this converter is simple:
+
+1. Drop an xls file from the ZebraLab export on this window (or a folder with such a file).
+
+2. Apply your settings to filter your data.
+
+3. Click on "Create Export" to create a new and clean file.
+
+
+Your filter settings will be saved automatic for the next usage.</value>
+  </data>
+  <data name="usage_checkingfile" xml:space="preserve">
+    <value>Please wait, I'm checking the dropped file.</value>
+  </data>
+  <data name="usage_checkingfiles" xml:space="preserve">
+    <value>Please wait, I'm checking the dropped files.</value>
+  </data>
+  <data name="usage_tab1_basics" xml:space="preserve">
+    <value>Usage of the basic settings:
+ 
+   Check the boxes you need.
+
+-----------------------------------------------------------------------------------------
+
+Results:
+
+   1. Remove line duplicates: The xls files from ZebraLab contains for each animal and record a duplicate line, sometimes with different values. Those duplicate lines will be filtered out of the result file, when the box is checked. Any chart in this program will use this setting no matter if you have checked it or not.
+
+   2. Remove lines with an invalid duration sum: Sometimes there have been a problem when recording the data and the xls file from ZebraLab contains line with (for example) a line duration of 60 seconds, but the sum of all durations (empty, inactive, slow, fast) is different to this. Any difference larger than 0.1 seconds will be filtered if this box is checked.
+
+   3. Add additional columns: If this box is checked, the output file will contain new columns with sum and relative amounts.
+
+   4. Write filter settings: If you are creating an xlsx-file (see destination tab) and this box is checked, the first lines of the output file will contain your imported filenames and the settings you have applied to filter your data.</value>
+  </data>
+  <data name="usage_tab2_thresholds" xml:space="preserve">
+    <value>Usage of the filter thresholds:
+    Apply numeric threshold values, as needed.
+-----------------------------------------------------------------------------------------
+    With this boxes you can apply thresholds to your data. Any line (from source data file) with a relative duration time below the min or above the maximum is truncated. The lines won't appear in the exported Excel file. 
+   The last box "Lines left" means, that at least this relative number of lines (from the source data file, checked for each animal individually) must remain after the threshold cleaning as "good" data. If not, all data of the respective animal is removed.
+-----------------------------------------------------------------------------------------
+Shortcuts: 
+    (Numpad) * : Reset to the default value of the box.
+    (Numpad) + or (Numpad) - : Add or subtract 1.0; hold down the Shift button to add or subtract 5.0.
+    Scroll Wheel up or down: Same like plus and minus, also available with Shift-modifier.</value>
+  </data>
+  <data name="usage_tab3_result" xml:space="preserve">
+    <value />
+  </data>
+  <data name="usage_tab4_destination" xml:space="preserve">
+    <value />
+  </data>
+  <data name="xlsx_header_description" xml:space="preserve">
+    <value>Zlab-Fileconverter cleaned ZebraLab data file from {0}.</value>
+  </data>
+  <data name="xlsx_header_filtermax" xml:space="preserve">
+    <value>applied filters max values:</value>
+  </data>
+  <data name="xlsx_header_filtermin" xml:space="preserve">
+    <value>applied filters min values:</value>
+  </data>
+  <data name="grouping_celltitle_group" xml:space="preserve">
+    <value>Group</value>
+    <comment>This string is displayed in the cells of each animal of the grouping option, if an animal is assigned to a group.</comment>
+  </data>
+  <data name="grouping_multifiles_info" xml:space="preserve">
+    <value>Multiple files provided.
+Please select file to change table:</value>
+  </data>
+  <data name="menu_grouping" xml:space="preserve">
+    <value>&amp;Grouping</value>
+  </data>
+  <data name="menu_grouping_2col" xml:space="preserve">
+    <value>One group per 2 columns</value>
+  </data>
+  <data name="menu_grouping_3col" xml:space="preserve">
+    <value>One group per 3 columns</value>
+  </data>
+  <data name="menu_grouping_4col" xml:space="preserve">
+    <value>One group per 4 columns</value>
+  </data>
+  <data name="tabcontrol_basic" xml:space="preserve">
+    <value>basic settings</value>
+  </data>
+  <data name="tabcontrol_destination" xml:space="preserve">
+    <value>destination</value>
+  </data>
+  <data name="tabcontrol_grouping" xml:space="preserve">
+    <value>grouping</value>
+  </data>
+  <data name="tabcontrol_result" xml:space="preserve">
+    <value>result</value>
+  </data>
+  <data name="tabcontrol_threshold" xml:space="preserve">
+    <value>filter thresholds</value>
+  </data>
+  <data name="usage_tab5_grouping" xml:space="preserve">
+    <value>Usage of the grouping table:
+   If you want to group your animals, select them by clicking on the header or on the animal and then press the buttons 0 to 9 to assign one of the ten possible groups. 0 is always the default group.
+
+   You may also use the shortcuts Ctrl+2, Ctrl+3 or Ctrl+4 to apply prepared templates: the animals are grouped and each group contains 2, 3 or 4 columns.
+   You can use the renaming utilitiy (accessible by Ctrl+R) to assign custom names to your groups. If no name is assigned, the group number is used instead.
+   
+   If you provided more than one input file, then above this info box you can select the file, the group settings are applied to. Each file has to be configured on it's own.</value>
+  </data>
+  <data name="chart_2circle_combinedlegend_inner" xml:space="preserve">
+    <value>inner circle</value>
+  </data>
+  <data name="chart_2circle_combinedlegend_outer" xml:space="preserve">
+    <value>outer circle</value>
+  </data>
+  <data name="chart_2circle_subtitle_fast" xml:space="preserve">
+    <value>fast movement: lardur</value>
+  </data>
+  <data name="chart_2circle_subtitle_inactive" xml:space="preserve">
+    <value>no movement: inadur</value>
+  </data>
+  <data name="chart_2circle_subtitle_slow" xml:space="preserve">
+    <value>slow movement: smldur</value>
+  </data>
+  <data name="chart_2circle_title_combined" xml:space="preserve">
+    <value>time spent in inner and outer circle</value>
+  </data>
+  <data name="chart_2circle_title_inner" xml:space="preserve">
+    <value>time spent in inner circle</value>
+  </data>
+  <data name="chart_2circle_title_outer" xml:space="preserve">
+    <value>time spent in outer circle</value>
+  </data>
+  <data name="chart_2circle_title_xaxis" xml:space="preserve">
+    <value>records</value>
+  </data>
+  <data name="chart_2circle_title_yaxis" xml:space="preserve">
+    <value>time spent %</value>
+  </data>
+  <data name="destination_2circle_header" xml:space="preserve">
+    <value>2-circle experiments:</value>
+  </data>
+  <data name="destination_2circle_mergetracks" xml:space="preserve">
+    <value>Merge the original two lines into one line</value>
+  </data>
+  <data name="destination_2circle_savecharts_combined" xml:space="preserve">
+    <value>Create combined line charts for inner and outer circle for each animal</value>
+  </data>
+  <data name="destination_2circle_savecharts_inner" xml:space="preserve">
+    <value>Create line charts for inner circle for each animal</value>
+  </data>
+  <data name="destination_2circle_savecharts_outer" xml:space="preserve">
+    <value>Create line charts for outer circle for each animal</value>
+  </data>
+  <data name="tabcontrol_2circle" xml:space="preserve">
+    <value>2 circle preview</value>
+  </data>
+  <data name="tabcontrol_import" xml:space="preserve">
+    <value>import notifications</value>
+  </data>
+  <data name="settings_header" xml:space="preserve">
+    <value>Zlab converter settings</value>
+  </data>
+  <data name="settings_langgroup_de" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="settings_langgroup_default" xml:space="preserve">
+    <value>System default language: {0}</value>
+  </data>
+  <data name="settings_langgroup_en" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="settings_langgroup_es" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="settings_langgroup_header" xml:space="preserve">
+    <value>Language settings</value>
+  </data>
+  <data name="settings_langgroup_subinfo" xml:space="preserve">
+    <value>Not all words may be translated right now. Always the fallback language is english. To support the translation process, please visit software.fuchs.pub/Zlab-Analyzer.</value>
+  </data>
+  <data name="menu_file_settings" xml:space="preserve">
+    <value>&amp;Settings</value>
+  </data>
+  <data name="groups_renaming_group0" xml:space="preserve">
+    <value>Group 0:</value>
+  </data>
+  <data name="groups_renaming_group1" xml:space="preserve">
+    <value>Group 1:</value>
+  </data>
+  <data name="groups_renaming_group2" xml:space="preserve">
+    <value>Group 2:</value>
+  </data>
+  <data name="groups_renaming_group3" xml:space="preserve">
+    <value>Group 3:</value>
+  </data>
+  <data name="groups_renaming_group4" xml:space="preserve">
+    <value>Group 4:</value>
+  </data>
+  <data name="groups_renaming_group5" xml:space="preserve">
+    <value>Group 5:</value>
+  </data>
+  <data name="groups_renaming_group6" xml:space="preserve">
+    <value>Group 6:</value>
+  </data>
+  <data name="groups_renaming_group7" xml:space="preserve">
+    <value>Group 7:</value>
+  </data>
+  <data name="groups_renaming_group8" xml:space="preserve">
+    <value>Group 8:</value>
+  </data>
+  <data name="groups_renaming_group9" xml:space="preserve">
+    <value>Group 9:</value>
+  </data>
+  <data name="groups_renaming_header" xml:space="preserve">
+    <value>Use the following boxes to rename your animal groups. If empty, the group number will be used.</value>
+  </data>
+  <data name="button_done" xml:space="preserve">
+    <value>&amp;Done</value>
+  </data>
+  <data name="destination_charts_header" xml:space="preserve">
+    <value>Chart options:</value>
+  </data>
+  <data name="destination_checkbox_addgroupcolumns" xml:space="preserve">
+    <value>Add additional columns for groups</value>
+  </data>
+  <data name="destination_checkbox_chart_subfolders" xml:space="preserve">
+    <value>Create subfolder for chart files</value>
+  </data>
+  <data name="destination_checkbox_chart_xaxisrenaming" xml:space="preserve">
+    <value>Use animal name as X axis value</value>
+  </data>
+  <data name="destination_checkbox_enableimagemerger" xml:space="preserve">
+    <value>Merge ZebraLab image files into one</value>
+  </data>
+  <data name="destination_checkbox_file_subfolders" xml:space="preserve">
+    <value>Create subfolder for each imported file</value>
+  </data>
+  <data name="destination_checkbox_reorderanimals" xml:space="preserve">
+    <value>Use animal counting in Matlab style (vertical) not ZebraLab style (horizontal)</value>
+  </data>
+  <data name="destination_imagemerger_header" xml:space="preserve">
+    <value>Image merger:</value>
+  </data>
+  <data name="menu_grouping_renameutility" xml:space="preserve">
+    <value>&amp;Rename groups</value>
+  </data>
+  <data name="column_import_animals" xml:space="preserve">
+    <value>Animals</value>
+  </data>
+  <data name="column_import_check" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="column_import_duplicates" xml:space="preserve">
+    <value>Duplicates</value>
+  </data>
+  <data name="column_import_filename" xml:space="preserve">
+    <value>File or folder name</value>
+  </data>
+  <data name="column_import_imagesfound" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="column_import_lines" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="column_import_problems" xml:space="preserve">
+    <value>Error description</value>
+  </data>
+  <data name="column_import_duration" xml:space="preserve">
+    <value>Duration overall</value>
+  </data>
+  <data name="column_import_secpertrack" xml:space="preserve">
+    <value>Time/Datatrack</value>
+  </data>
+  <data name="menu_filehandling" xml:space="preserve">
+    <value>File handling</value>
+  </data>
+  <data name="menu_filehandling_entrydown" xml:space="preserve">
+    <value>Move down</value>
+  </data>
+  <data name="menu_filehandling_entryup" xml:space="preserve">
+    <value>Move up</value>
+  </data>
+  <data name="menu_filehandling_removeentry" xml:space="preserve">
+    <value>Enable/Disable</value>
+  </data>
+</root>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>D:\Projects\ZLab-Analyzer\Deploy\|D:\nextCloud\Projects\ZebraData\Neuer Converter\|D:\nextCloud\Projects\ZebraData\Neuer Converter\_deploy\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>https://software.fuchs.pub/ZLab-Analyzer/|https://software.mogul.network/ZLabTools/</InstallUrlHistory>
+    <SupportUrlHistory>https://software-support.fuchs.pub/|https://software.mogul.network/ZLabTools</SupportUrlHistory>
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory>https://software.fuchs.pub/ZLab-Converter|https://software.mogul.network/ZLabTools</ErrorReportUrlHistory>
+    <FallbackCulture>de-DE</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>
