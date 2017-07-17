@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ZLab-Analyzer.exe" version="1.0.0.10" publicKeyToken="f0f2dc2f0a025955" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icons-Land-Multiple-Smiley-Fish-Movie.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ZLab-Analyzer" version="1.0.0.10" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ZLab-Analyzer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DocumentFormat.OpenXml.dll" size="5301760">
+      <assemblyIdentity name="DocumentFormat.OpenXml" version="2.6.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CxTLKQAFYtydhK78rKKchUXW/x+rFdfeVA9YCToW9pI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZLab-Analyzer.exe" size="1452560">
+      <assemblyIdentity name="ZLab-Analyzer" version="1.0.0.10" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JKM8KXc554goHIAUac0DI13KjqNRv0YR0Q6uYfWUkmk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\ZLab-Analyzer.resources.dll" size="5120">
+      <assemblyIdentity name="ZLab-Analyzer.resources" version="1.0.0.10" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PECFh4/cpgk8yJyKNYwQscqwU5+K612z8stvzHPSPJI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en-US\ZLab-Analyzer.resources.dll" size="436736">
+      <assemblyIdentity name="ZLab-Analyzer.resources" version="1.0.0.10" language="en-US" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>g5EePjF+TwkXFB8vuQd5TeLUZTrW5m+XRjrwln/poZM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Icons-Land-Multiple-Smiley-Fish-Movie.ico" size="432254">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VZslcp+iCNe4TrHLY6V/voQXNm0L4BzwEWSOWi6aNLg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ZLab-Analyzer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WIN-TVQ1FFK9OVP\Administrator" issuerKeyHash="9ab755086e5e877025772822e9d4770596257f55" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZhqbkovSZh7inphzWLUE7mAfnsWwR/rUtfdgBctAzlc=</DigestValue></Reference></SignedInfo><SignatureValue>Zaay258QQbigX+BgvD6PbcVnLZG1d68KhkNd8uT8jDN44k5aUXVYswT705wR5CO9ZnXzs1E0dhB371thgHoalGr5HwJDs6Yb/Tr3MRep81VjacbG/DC1+D65vTU1oU9HjU4mkQ0e7hJuY+eangZ5wni6bminwm76UB4Lv8GOCm8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>txtf5GyVn07NSCYMY4s+AZSYoj3W016PzR2xxx73Q/UsDcal7UiR/M3LFH1vaCrTtf7wZjaJ/GI28m7jCD+GwfPs6+bDpYwJfGKra81nasy3U+ZjhjsQNIHMitXGrYOsIy/lGHyc1LscxpfWJEkTfjvwTyMEq0v7C3W6Gn7M7IU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="57ce40cb0560f7b5d4fa47b0c59e1f60ee04b55873989ee21e66d28b929b1a66" Description="" Url=""><as:assemblyIdentity name="ZLab-Analyzer.exe" version="1.0.0.10" publicKeyToken="f0f2dc2f0a025955" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN-TVQ1FFK9OVP\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>dFXrkLtzhqFOfzj1DtbfQ86Nx22NtNMiqbeThoSZ5kk=</DigestValue></Reference></SignedInfo><SignatureValue>P9wL+sfCry8O6nTEaG98PYUyxLgIdbFd3rwou2SSLD0t+sZo2RQJi80oRwSrA6Bz1a6ueFKyki11eDhNeMCQs4mkL77Gk5suOU+tjX3LUlY4QJ1eYpca6FE63O0PYEyXr4RLBVPei2gT3G8+9rYMtzqr6xGHkyb4dUsdcJJ7o8Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>txtf5GyVn07NSCYMY4s+AZSYoj3W016PzR2xxx73Q/UsDcal7UiR/M3LFH1vaCrTtf7wZjaJ/GI28m7jCD+GwfPs6+bDpYwJfGKra81nasy3U+ZjhjsQNIHMitXGrYOsIy/lGHyc1LscxpfWJEkTfjvwTyMEq0v7C3W6Gn7M7IU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQQwcbCvGA2ZVCXtp21DrImTANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoAVwBJAE4ALQBUAFYAUQAxAEYARgBLADkATwBWAFAAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE3MDExNzIxMzU1NFoXDTE4MDExODAzMzU1NFowRTFDMEEGA1UEAx46AFcASQBOAC0AVABWAFEAMQBGAEYASwA5AE8AVgBQAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtxtf5GyVn07NSCYMY4s+AZSYoj3W016PzR2xxx73Q/UsDcal7UiR/M3LFH1vaCrTtf7wZjaJ/GI28m7jCD+GwfPs6+bDpYwJfGKra81nasy3U+ZjhjsQNIHMitXGrYOsIy/lGHyc1LscxpfWJEkTfjvwTyMEq0v7C3W6Gn7M7IUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCx+XNWSqXDdH+nnsL38Ug/l7I1SkAeBmmGiPnDg+8QumdY9jfGSxFoVE/HW8dghclR/zB9jjk/qEpzRN9P0V+ZFpeTG+72tTR2F/FfXiuB9cEMdjl+yDC16MWAPOCXK5QQbGppYBacIXQeBr/PXBnuq63vfJVoDruG5E8A8bQEvQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
